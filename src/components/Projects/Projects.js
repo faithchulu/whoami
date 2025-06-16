@@ -8,6 +8,12 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import elect from "../../Assets/images/e-Elect.png";
+import mindsight from "../../Assets/images/Mind_sight2.png";
+import dashboard from "../../Assets/images/Dashboard.png";
+import catgallery from "../../Assets/images/Cat_gallery.png";
+import triviaapp from "../../Assets/images/Triavia_app.png";
+import getstone from "../../Assets/images/Get Stone.png";
 
 function Projects() {
   return (
@@ -15,7 +21,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,68 +29,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={elect}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="e-Elect"
+              description="A blockchain-based web voting system integrated with biometric authentication (fingerprint recognition) to ensure secure and transparent digital elections. Built with Solidity, Web3.js, and React."
+              ghLink="https://github.com/faithchulu/e-Elect"
+              demoLink="https://e-elect.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mindsight}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="MindSight"
+              description="An AI-powered mental health diagnostic tool that uses NLP to assess symptoms and provide insights into potential mental health conditions. Designed to support early detection and promote mental well-being."
+              ghLink="https://github.com/faithchulu/AI-for-Mental-Disorder-Diagnosis"
+              demoLink="https://ai-for-mental-disorder-diagnosis.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dashboard}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Admin Dashboard"
+              description="A modern and responsive admin dashboard for managing users, analytics, and system configurations. Built with React, Chart.js, and Bootstrap to streamline administrative tasks."
+              ghLink="https://github.com/your-username/admin-dashboard"
+              demoLink="https://github.com/Upscale-technologies/MomoMarketLink-AdminDashboard"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={getstone}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Get Stone Website"
+              description="A sleek and professional website built for a marble stone business, featuring a product gallery, customer testimonials, and an inquiry contact form. Built with HTML, CSS, and JavaScript."
+              ghLink="https://github.com/faithchulu/Tution-center-landing-page"
+              demoLink="https://tution-center-landing-page.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={triviaapp}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Trivia App"
+              description="A fun and interactive web-based trivia game where users can test their knowledge across multiple categories and difficulty levels. Features a responsive design and timer-based gameplay."
+              ghLink="https://github.com/faithchulu/Trivia-App"
+              demoLink="https://trivia-app-two-xi.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={catgallery}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Kitty-Cat Gallery"
+              description="A lighthearted image gallery showcasing adorable cat photos. Includes features like image modals, responsive grid layout, and a search filter. Built with React and CSS Grid."
+              ghLink="https://github.com/faithchulu/cat-gallery"
+              demoLink="https://cat-gallery-xi.vercel.app/"
             />
           </Col>
         </Row>
