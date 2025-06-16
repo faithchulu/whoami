@@ -1,11 +1,7 @@
 <h2 align="center">
   Faith Chulu's Portfolio Website - v2.0<br/>
-  <a href="https://faith-chulu.vercel.app/" target="_blank">faithchulu.vercel.app</a>
+  <a href="https://faith-chulu.vercel.app" target="_blank">faith-chulu.vercel.app</a>
 </h2>
-
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
@@ -14,8 +10,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/faithchulu/Portfolio?color=blue&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/faithchulu/Portfolio?color=blue&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/faithchulu/whoami?color=blue&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/faithchulu/whoami?color=blue&logo=github&style=for-the-badge)
 
 </div>
 
@@ -31,7 +27,7 @@
 
 ## 🔧 Built With
 
-My personal portfolio [faith-chulu.vercel.app](https://faithchulu.vercel.app/) showcases selected GitHub projects, technical skills, and my resume.
+My personal portfolio [faith-chulu.vercel.app](https://faith-chulu.vercel.app/) showcases selected GitHub projects, technical skills, and my resume.
 
 This site was built using:
 
