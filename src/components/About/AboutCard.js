@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Faith Chulu </span>
             from <span className="purple"> Lusaka, Zambia.</span>
             <br />
-            I am currently employed as a Business Analyst at PrroBase Group.
+            I am currently employed as a Business Analyst at ProBase Group.
             <br />
             I have completed my Bachelor of Science (BSC) in Computer Science at DMI
             St. Eugene University.
