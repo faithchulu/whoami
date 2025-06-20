@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import elect from "../../Assets/images/e-Elect.png";
 import mindsight from "../../Assets/images/Mind_sight2.png";
 import dashboard from "../../Assets/images/Dashboard.png";
@@ -45,7 +39,7 @@ function Projects() {
               title="MindSight"
               description="An AI-powered mental health diagnostic tool that uses NLP to assess symptoms and provide insights into potential mental health conditions. Designed to support early detection and promote mental well-being."
               ghLink="https://github.com/faithchulu/AI-for-Mental-Disorder-Diagnosis"
-              demoLink="https://ai-for-mental-disorder-diagnosis.vercel.app/"
+              demoLink="https://ai-4-mental-disorder-diagnosis.vercel.app/"
             />
           </Col>
 
@@ -56,7 +50,7 @@ function Projects() {
               title="Admin Dashboard"
               description="A modern and responsive admin dashboard for managing users, analytics, and system configurations. Built with React, Chart.js, and Bootstrap to streamline administrative tasks."
               ghLink="https://github.com/your-username/admin-dashboard"
-              demoLink="https://github.com/Upscale-technologies/MomoMarketLink-AdminDashboard"
+              demoLink="https://momo-market-link-admin-dashboard.vercel.app/"
             />
           </Col>
 
@@ -67,7 +61,7 @@ function Projects() {
               title="Get Stone Website"
               description="A sleek and professional website built for a marble stone business, featuring a product gallery, customer testimonials, and an inquiry contact form. Built with HTML, CSS, and JavaScript."
               ghLink="https://github.com/faithchulu/Tution-center-landing-page"
-              demoLink="https://tution-center-landing-page.vercel.app/"
+              demoLink="https://getstone-website.vercel.app/"
             />
           </Col>
 
@@ -89,7 +83,7 @@ function Projects() {
               title="Kitty-Cat Gallery"
               description="A lighthearted image gallery showcasing adorable cat photos. Includes features like image modals, responsive grid layout, and a search filter. Built with React and CSS Grid."
               ghLink="https://github.com/faithchulu/cat-gallery"
-              demoLink="https://cat-gallery-xi.vercel.app/"
+              demoLink="https://kitty-cat-gallery.vercel.app/"
             />
           </Col>
         </Row>
